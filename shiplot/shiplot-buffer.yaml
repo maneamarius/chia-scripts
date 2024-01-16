@@ -1,0 +1,33 @@
+# Maximum number of concurrent file transfers.
+maxThreads: 4
+
+# The paths that are watched for new *.plot files.
+stagingPaths:
+  - /mnt/hitachi
+
+# List of paths to move *.plot files to.
+destinationPaths:
+  - /mnt/pool01
+  - /mnt/pool02
+  - /mnt/pool03
+  - /mnt/pool04
+  - /mnt/pool05
+  - /mnt/pool06
+  - /mnt/pool07
+  - /mnt/pool08
+  - /mnt/pool09
+  - /mnt/pool10
+#  - /mnt/pool11
+#  - /mnt/pool12
+#  - /mnt/pool13
+#  - /mnt/pool14
+#  - /mnt/pool15
+#  - /mnt/pool16
+#  - /mnt/pool17
+#  - /mnt/pool18
+#  - /mnt/pool19
+#  - /mnt/pool20
+#  - /mnt/pool21
+#  - /mnt/pool22
+#  - /mnt/pool23
+#  - /mnt/pool24

@@ -1,0 +1,17 @@
+  270  cd bladebit/
+  271  git status
+On branch cuda-compression
+  272  git pull
+  273  vim cuda/CudaPlotConfig.h 
+
+  cuda/CudaPlotConfig.h
+  #define BBCU_BUCKET_COUNT               (256u)
+
+
+  274  mv build build.old
+  275  mkdir build
+  276  cd build
+  277  cmake ..
+  278  cmake -- build . --config Release --target bladebit_cuda -j$(nproc --all)
+  279  cmake --build . --target bladebit_cuda --config Release -j$(nproc --all)
+

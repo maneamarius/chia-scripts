@@ -1,0 +1,6 @@
+sudo apt install sysstat
+mpstat
+sar 1
+
+
+gnome-system-monitor 

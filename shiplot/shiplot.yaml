@@ -1,0 +1,13 @@
+# Maximum number of concurrent file transfers.
+maxThreads: 1
+
+# The paths that are watched for new *.plot files.
+stagingPaths:
+  - /mnt/pool22
+  - /mnt/pool23
+
+# List of paths to move *.plot files to.
+destinationPaths:
+  - /mnt/pool24
+  - /mnt/pool25
+  - /mnt/pool27
